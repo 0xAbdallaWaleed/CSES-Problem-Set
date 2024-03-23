@@ -9,6 +9,7 @@
     *se a+b must be divisible by 3
   and second thing we can think about is that the max(a,b) must be less than or equal 2*min(a,b) since if we just keep subtracting 2 from the max
   and 1 from the min we can't subtract any number greter than 2*min -> will lead to negative number in the min
+  time: O(1)
 */
 
 #include <bits/stdc++.h>
